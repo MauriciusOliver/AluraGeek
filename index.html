@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/home.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header class="container">
+        <section class="header__left">
+            <img src="./assets/img/logo.png" alt="logo" class="img__header">
+            <input type="text" class="input__header" placeholder="O que deseja encontrar?">
+        </section>
+        <section class="header__rigth">
+                <a class="text__header botao1" href="./assets/pages/login.html">Login</a>
+        </section>
+    </header>
+    <section class="banner">
+        <img src="./assets/img/banner-image.png" alt="banner" class="banner__img">
+        <div class="container__banner">
+            <h1 class="paragrafo__banner">Dezembro Promocional</h1>
+            <p class="text__banner">Produtos selecionados com 33% de desconto</p>
+            
+                <a href="./assets/pages/todosProdutos.html?setups" class="button__verConsoles">Ver consoles</a>
+            
+        </div>
+    </section>
+    <section class="produtos">
+        <div class="container__produtos">
+            <div class="detail__produtos">
+                <h4>Star Wars</h4>
+                <a href="./assets/pages/todosProdutos.html?startWars" class="link__todos">
+                    Ver todos
+                </a>
+            </div>
+            <ul class="lista__produtos" data-lista__start>
+            </ul>
+        </div>
+    </section>
+
+    <section class="produtos">
+        <div class="container__produtos">
+            <div class="detail__produtos">
+                <h4>Consoles</h4>
+                <a href="./assets/pages/todosProdutos.html?setups" class="link__todos">
+                    Ver todos
+                </a>
+            </div>
+            <ul class="lista__produtos" data-lista__console>
+
+            </ul>
+        </div>
+    </section>
+
+    <section class="produtos">
+        <div class="container__produtos">
+            <div class="detail__produtos">
+                <h4>Diversos</h4>
+                <a href="./assets/pages/todosProdutos.html?diversos" class="link__todos">
+                    Ver todos
+                </a>
+            </div>
+            <ul class="lista__produtos" data-lista__diversos>
+            </ul>
+        </div>
+    </section>
+
+    <section class="container__contato">
+        <div class="img__coontato">
+            <img src="./assets/img/logo.png" alt="logo">
+        </div>
+        <div class="contato">
+            <ul class="contato__ul">
+                <li class="contato__links">Quem somos nós</li>
+                <li class="contato__links">Política de privacidade</li>
+                <li class="contato__links">Programa de fidelidade</li>
+                <li class="contato__links">Nossas lojas</li>
+                <li class="contato__links">Quero ser franqueado</li>
+                <li class="contato__links">Anuncie aqui</li>
+            </ul>
+        </div>
+        <form action="https://formsubmit.co/mauriciusoliveira@hotmail.com" method="POST" class="mensagem__contato" data-form>
+            <h1>Fale Conosco!</h1>
+            
+            <input type="text" class="inputs__contato" placeholder="Nome" name="nome" id="nome" required>
+           
+            <textarea class="inputs__contato" placeholder="Mensagem" name="mensagem" id="mensagem" required></textarea>
+            <button class="button__contato" type="submit" >Enviar Mensagem</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>Desenvolvido por Mauricius Oliveira</p>
+        <p>2023</p>
+    </footer>
+</body>
+
+<script src="./assets/js/produtos/listagem.js" type="module"></script>
+<script src="/assets/js/script.js"></script>
+
+</html>

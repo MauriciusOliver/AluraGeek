@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
+
+ol,
+a,
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+header.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.text__button {
+    color: #FFF;
+}
+
+.input__header {
+    border-radius: 50px;
+    border: none;
+    background-color: #F5F5F5;
+    width: 393px;
+    height: 40px;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    height: 400px;
+}
+
+.container__login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.text__login {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputs__login {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    border: none;
+    height: 40px;
+}
+
+.button__login {
+    background-color: #2A7AE4;
+    text-align: center;
+    border: none;
+    width: 95%;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+.container__contato {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d3e1fc;
+}
+
+.contato__links {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mensagem__contato {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.inputs__contato {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding: 1rem;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button__contato {
+    background-color: #2A7AE4;
+    text-align: center;
+    border: none;
+    padding: 12px 10px;
+    width: 30%;
+    margin-top: 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.button__contato:hover {
+    background-color: #2162b7;
+}
+
+.botao1 {
+    padding: 16px 40px;
+    border: 1px solid #2a7ae4;
+    
+    color: #2a7ae4;
+    text-decoration: none;
+
+transition: .5s;
+}
+
+.botao1:hover {
+    background: #2A7AE4;
+    color: #FFF;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 720px) {
+    header.container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .input__header {
+        display: none;
+    }
+
+    .img__coontato {
+        display: none;
+    }
+
+    .button__contato {
+        width: 100%;
+    }
+}

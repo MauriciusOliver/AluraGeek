@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header class="container">
+        <section class="header__left">
+            <a href="../../index.html">
+                <img src="./../img/logo.png" alt="logo" class="img__header">
+            </a>
+            <input type="text" class="input__header" placeholder="O que deseja encontrar?">
+        </section>
+    </header>
+
+    <section class="login">
+        <div class="container__login">
+            <h1 class="text__login">Iniciar Sessão</h1>
+            <input type="text" class="inputs__login" placeholder="Email" id="email">
+            <input type="password" class="inputs__login" placeholder="Password" id="password">
+            <button class="button__login" id="myButton">
+                <a class="text__button">Entrar</a>
+            </button>
+        </div>
+    </section>
+
+    <section class="container__contato">
+        <div class="img__coontato">
+            <img src="../img/logo.png" alt="logo">
+        </div>
+        <div class="contato">
+            <ul class="contato__ul">
+                <li class="contato__links">Quem somos nós</li>
+                <li class="contato__links">Política de privacidade</li>
+                <li class="contato__links">Programa de fidelidade</li>
+                <li class="contato__links">Nossas lojas</li>
+                <li class="contato__links">Quero ser franqueado</li>
+                <li class="contato__links">Anuncie aqui</li>
+            </ul>
+        </div>
+        <form action="https://formsubmit.co/mauriciusoliveira@hotmail.com" method="POST" class="mensagem__contato" data-form>
+            <h1>Fale Conosco!</h1>
+            
+            <input type="text" class="inputs__contato" placeholder="Nome" name="nome" id="nome" required>
+           
+            <textarea class="inputs__contato" placeholder="Mensagem" name="mensagem" id="mensagem" required></textarea>
+            <button class="button__contato" type="submit" >Enviar Mensagem</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>Desenvolvidor por Mauricius Oliveira</p>
+        <p>2023</p>
+    </footer>
+</body>
+
+<script src="../js/login/login.js" type="module"></script>
+<script src="./../js/script.js"></script>
+
+</html>
